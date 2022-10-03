@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script type="application/javascript" src="script.js"></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,11 +30,12 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <div class="time-block">
-        <div class="row">
-          <div class="hour">9 pm</div>
-          <div class="description"><textarea>scheduling</textarea></div>
-        </div>
+      <div class="row">
+        <div class="hour">9 pm</div>
+        <textarea aria-label="description" class="description present">
+test</textarea
+        >
+        <button class="saveBtn">Save</button>
       </div>
     </div>
 
